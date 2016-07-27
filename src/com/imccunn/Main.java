@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
 	    if (args.length > 0) System.out.println(args[0]);
 
-        Long seed = 43234234L;
+        long seed = 43234234L;
         Random rnd = new Random(seed);
-        Integer num = 33;
-        for (Integer i = 0; i < num; i++) {
-            System.out.println(rnd.nextDouble());
+        int num = 333;
+        for (int i = 0; i < num; i++) {
+            System.out.printf("%s : %s \n", i, rnd.nextDouble());
         }
     }
 }
